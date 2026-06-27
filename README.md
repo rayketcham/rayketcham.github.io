@@ -18,8 +18,6 @@ By night: a homelab fleet that mostly runs itself, because I taught Claude Code 
 ![Ray's GitHub stats](https://github-readme-stats.vercel.app/api?username=rayketcham&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&theme=tokyonight)
 ![GitHub streak](https://streak-stats.demolab.com/?user=rayketcham&hide_border=true&theme=tokyonight)
 
-[![trophies](https://github-profile-trophy.vercel.app/?username=rayketcham&theme=tokyonight&no-frame=true&column=7&margin-w=4&margin-h=4)](https://github.com/ryo-ma/github-profile-trophy)
-
 </div>
 
 ---
