@@ -1,61 +1,28 @@
-<!-- rayketcham/rayketcham — personal profile README -->
-<div align="center">
+# Ray Ketcham
 
-# Hi, I'm Ray 👋
+Security & PKI engineer. I build public-key infrastructure, code-signing systems, and the tooling to migrate them to post-quantum cryptography.
 
-### I make computers trust each other — responsibly — and automate everything else.
+**Focus:** certificate authorities · code signing · post-quantum cryptography (NIST ML-DSA / ML-KEM / SLH-DSA — FIPS 203/204/205) · self-hosted infrastructure and CI.
 
-Security & PKI engineer. I think certificates are genuinely cool and I will not be apologizing for it.
-By day: certificate authorities, code signing, and dragging cryptography into the **post-quantum** era.
-By night: a homelab fleet that mostly runs itself, because I taught Claude Code to do my chores. 🤖
-
-[![Ketcham Lab](https://img.shields.io/badge/org-Ketcham%20Lab-6f42c1?logo=github&logoColor=white)](https://github.com/rayketcham-lab)
-[![Quantum Nexum](https://img.shields.io/badge/quantumnexum.com-8a2be2)](https://quantumnexum.com)
-[![Post-Quantum](https://img.shields.io/badge/post--quantum-ML--DSA%20%2B%20SLH--DSA-8a2be2)](https://quantumnexum.com)
-
-<br>
-
-![Ray's GitHub stats](https://github-readme-stats.vercel.app/api?username=rayketcham&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&theme=tokyonight)
-![GitHub streak](https://streak-stats.demolab.com/?user=rayketcham&hide_border=true&theme=tokyonight)
-
-</div>
+**[Ketcham Lab](https://github.com/rayketcham-lab)** · **[quantumnexum.com](https://quantumnexum.com)**
 
 ---
 
-### 🔭 What I'm building
+## Selected work
 
-- **[Ketcham Lab](https://github.com/rayketcham-lab)** — my org for PKI infrastructure, cryptographic tooling, and security software, all pointed at the migration to post-quantum cryptography.
-- **[Quantum Nexum](https://quantumnexum.com)** — a post-quantum PKI platform, software stack, and (because someone has to explain this stuff) an educational resource. Built around NIST's ML-DSA / ML-KEM / SLH-DSA — FIPS 203/204/205.
-- **HomePKI** — your own certificate authority for the home network. One static binary, post-quantum ready, no cloud, no account, no nonsense. *(private beta)*
+| Project | Description |
+|---------|-------------|
+| **[PKI-Client](https://github.com/rayketcham-lab/PKI-Client)** | Pure-Rust PKI CLI — certificate inspection, key management, TLS probing, and CA hierarchies. No OpenSSL dependency; single static binary. |
+| **[PKI-Signing-Service](https://github.com/rayketcham-lab/PKI-Signing-Service)** | Pure-Rust code-signing engine — Authenticode, PKCS#7/CMS, and RFC 3161 timestamping over CLI, REST, and TSA. |
+| **[shadowtrap](https://github.com/rayketcham-lab/shadowtrap)** | Multi-protocol honeypot — emulated services, honeytokens, payload capture, and a live threat dashboard. |
+| **[qn-claude-web](https://github.com/rayketcham-lab/qn-claude-web)** | Self-hosted web interface for the Claude Code CLI. |
 
-### 🧰 Stuff you can actually use today
+**HomePKI** — a self-contained certificate authority for home and small networks; post-quantum ready, single binary, no cloud dependency. *(private beta)*
 
-| Project | What it is |
-|---------|-----------|
-| [PKI-Client](https://github.com/rayketcham-lab/PKI-Client) | Pure-Rust PKI CLI — inspect certs, manage keys, probe TLS, build CA hierarchies. No OpenSSL, one static binary. |
-| [PKI-Signing-Service](https://github.com/rayketcham-lab/PKI-Signing-Service) | Pure-Rust code-signing engine — Authenticode, PKCS#7/CMS, RFC 3161 timestamping. CLI / REST / TSA. |
-| [shadowtrap](https://github.com/rayketcham-lab/shadowtrap) | Multi-protocol honeypot — 21 emulated services, honeytokens, payload capture, live threat dashboard. |
-| [qn-claude-web](https://github.com/rayketcham-lab/qn-claude-web) | Self-hosted web UI for the Claude Code CLI — full terminal + multi-agent orchestration from any browser. |
-
-> The full public showcase, with live release/CI/license badges, lives on the
-> **[Ketcham Lab org page →](https://github.com/rayketcham-lab)**
-
-### 🛠️ Toolbox
-
-![Rust](https://img.shields.io/badge/Rust-000000?logo=rust&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
-![C#](https://img.shields.io/badge/C%23-512BD4?logo=dotnet&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?logo=gnubash&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black)
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?logo=githubactions&logoColor=white)
-
-**What I geek out on:** enterprise & Federal PKI · post-quantum cryptography · code signing · threat intel & honeypots · self-hosted infra & CI · teaching agents to do the boring parts.
+The full project showcase lives on the **[Ketcham Lab organization page](https://github.com/rayketcham-lab)**.
 
 ---
 
-<div align="center">
+## Tech
 
-<sub>🔐 commits signed & verified · 2FA enforced across the org · certificates are cool, fight me</sub>
-
-</div>
+Rust · Python · C# · Bash · Linux · GitHub Actions
