@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/rayketcham-lab/.github/main/profile/assets/banner.jpg" alt="Ketcham Lab — cyber security, PKI, encryption" width="100%">
+  <img src="./assets/banner.jpg" alt="Ketcham Lab — cyber security, PKI, encryption" width="100%">
 </div>
 
 ## Ray Ketcham
